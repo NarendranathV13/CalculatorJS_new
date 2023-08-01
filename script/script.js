@@ -2,11 +2,9 @@ const disp = document.getElementById("result");
 const eql = document.getElementById("equalto");
 const operators = {
   "+": (a, b) => {
-    return a + b;
-  },
+    return a + b;},
   "-": (a, b) => {
-    return a - b;
-  },
+    return a - b;},
   "*": (a, b) => {
     return a * b;
   },
